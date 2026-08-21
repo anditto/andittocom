@@ -13,11 +13,11 @@
     <style>
       :root {
         --bg:#fbfaf8; --fg:#1a1a18; --muted:#6b6a66;
-        --rule:#e4e1db; --accent:#bf4008;
+        --rule:#e4e1db; --accent:#d0451b;
       }
       @media (prefers-color-scheme:dark) {
         :root { --bg:#131312; --fg:#e8e6e1; --muted:#8f8d87;
-                --rule:#2a2926; --accent:#ff7a3d; }
+                --rule:#2a2926; --accent:#e8592a; }
       }
       *,*::before,*::after { box-sizing:border-box }
       body {
@@ -27,6 +27,8 @@
       }
       main { max-width:68ch; margin-inline:auto; padding:96px 24px 128px }
       p { margin:0 0 16px }
+      .mark { display:block; width:40px; height:40px; margin:0 0 24px }
+      .mark-bar { stroke:var(--accent) }
       h1 { font:600 1.0625rem/1.4 inherit; letter-spacing:-.01em; margin:0 0 48px }
       h2 {
         font:500 .8125rem/1.4 ui-monospace,"SF Mono",Menlo,monospace;
@@ -85,6 +87,14 @@
     <main>
         <article>
             <header>
+                <svg class="mark" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+                    <circle cx="100" cy="100" r="88" fill="none" stroke="currentColor" stroke-width="17"/>
+                    <g stroke="currentColor" stroke-width="17" stroke-linecap="butt">
+                        <line x1="61" y1="145" x2="92" y2="57"/>
+                        <line x1="139" y1="145" x2="108" y2="57"/>
+                    </g>
+                    <line class="mark-bar" x1="76" y1="110" x2="124" y2="110" stroke-width="17"/>
+                </svg>
                 <h1>Anditto Heristyo</h1>
             </header>
             

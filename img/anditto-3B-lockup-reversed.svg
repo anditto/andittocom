@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200">
+  <g><circle cx="100" cy="100" r="96" fill="#FFFFFF"></circle><g stroke="#111111" stroke-width="17" stroke-linecap="butt">
+    <line x1="61" y1="145" x2="92" y2="57"></line>
+    <line x1="139" y1="145" x2="108" y2="57"></line>
+  </g><line x1="76" y1="110" x2="124" y2="110" stroke="#D0451B" stroke-width="17"></line></g>
+  <text x="250" y="100" dominant-baseline="central" font-family="Archivo, Helvetica, Arial, sans-serif" font-size="64" font-weight="600" letter-spacing="17" fill="#FFFFFF">ANDITTO</text>
+</svg>
